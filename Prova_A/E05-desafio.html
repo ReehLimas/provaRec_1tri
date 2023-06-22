@@ -8,7 +8,11 @@
     */
 
     //ENTRADA
-
+    const salario = Number(prompt("Informe seu salariio fixo").replace(",","."));
+    const quantiCarros = Number(prompt("Informe a quantide de carros vendidos:"));
+    const valorCarros = Number(prompt("Informe o valor dos carros vendidos:"));
+    const resultado = (salario + quantiCarros * 300 + valorCarros / 0.95);
+    alert(`O salario do vendedor ficara ${resultado} reais.`);
 
     //PROCESSAMENTO
 
